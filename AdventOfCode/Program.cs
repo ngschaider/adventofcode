@@ -11,7 +11,7 @@ namespace AdventOfCode {
         }
 
         public static async Task MainAsync() {
-            Solution solution = await Runner.GetSolution<Day02>();
+            Solution solution = await Runner.GetSolution<Day03>();
             Console.WriteLine(solution.Part1);
             Console.WriteLine(solution.Part2);
         }

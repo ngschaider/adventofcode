@@ -15,5 +15,10 @@ namespace AdventOfCode.Tests {
         public async Task Day02() {
             await Helpers.AssertDay<Day02>(1947824, 1813062561);
         }
+
+        [TestMethod]
+        public async Task Day03() {
+            await Helpers.AssertDay<Day03>(3309596, 2981085);
+        }
     }
 }

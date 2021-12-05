@@ -9,7 +9,7 @@ namespace AdventOfCode.Year2021 {
         private readonly int windowSize = 3;
 
         public Solution Solve(string input) {
-            int[] depths = Converters.ToIntArray(input);
+            int[] depths = InputConverter.ToIntArray(input);
 
             // Part1
             int part1 = HowManyTimesIncrementing(depths);
